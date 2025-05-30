@@ -7,7 +7,7 @@ namespace Infrastructure.Data;
 
 public class StoreContext(DbContextOptions options) : DbContext(options)
 {
-    public DbSet<Product>? Products { get; set; }
+    public DbSet<Product> Products { get; set; } = null!; // Tabela chamada `Products` e Classe `Product`
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

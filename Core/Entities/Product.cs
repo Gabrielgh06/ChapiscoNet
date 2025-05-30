@@ -8,7 +8,7 @@ public class Product : BaseEntity
     public string? Description { get; set; } // ? = se pode ser nulo
     public decimal Price { get; set; }
     public required string Size { get; set; }
-    public required int Category { get; set; }
+    public required string Category { get; set; }
     public int QuantityInStock { get; set; }
     public List<string> ImagesUrl { get; set; } = new(); // Lista de URLs de imagens
 

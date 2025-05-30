@@ -1,0 +1,74 @@
+[
+  {
+    "Name": "Vaso Cilíndrico Pequeno",
+    "Description": "Vaso de cimento feito à mão, ideal para suculentas ou pequenos cactos. Acabamento rústico e moderno.",
+    "Price": 25,
+    "Size": "Pequeno",
+    "Category": "Vasos",
+    "QuantityInStock": 30,
+    "ImagesUrl": ["/images/products/vaso-cilindrico-pequeno.png"]
+  },
+  {
+    "Name": "Conjunto de 3 Vasos Geométricos",
+    "Description": "Trio de vasos de cimento com formas geométricas variadas. Perfeitos para decoração minimalista.",
+    "Price": 70,
+    "Size": "Pequeno",
+    "Category": "Vasos",
+    "QuantityInStock": 20,
+    "ImagesUrl": ["/images/products/vasos-geometricos.png"]
+  },
+  {
+    "Name": "Prato de Apoio Oval",
+    "Description": "Prato de cimento para uso com vasos ou objetos decorativos. Traz charme e organização ao ambiente.",
+    "Price": 18,
+    "Size": "Médio",
+    "Category": "Pratos",
+    "QuantityInStock": 40,
+    "ImagesUrl": ["/images/products/prato-oval.png"]
+  },
+  {
+    "Name": "Cachepot Cimento Cinza Escuro",
+    "Description": "Cachepot robusto com acabamento polido. Design urbano ideal para salas ou escritórios.",
+    "Price": 35,
+    "Size": "Médio",
+    "Category": "Vasos",
+    "QuantityInStock": 15,
+    "ImagesUrl": ["/images/products/cachepot-cinza.png"]
+  },
+  {
+    "Name": "Pote Multiuso de Cimento",
+    "Description": "Pote decorativo para uso como porta-velas, organizador ou pequeno vaso. Super versátil.",
+    "Price": 22,
+    "Size": "Pequeno",
+    "Category": "Potes",
+    "QuantityInStock": 50,
+    "ImagesUrl": ["/images/products/pote-multiuso.png"]
+  },
+  {
+    "Name": "Suporte de Vela de Cimento",
+    "Description": "Base para velas com design minimalista. Ideal para criar uma atmosfera acolhedora.",
+    "Price": 15,
+    "Size": "Pequeno",
+    "Category": "Decorativos",
+    "QuantityInStock": 60,
+    "ImagesUrl": ["/images/products/suporte-vela.png"]
+  },
+  {
+    "Name": "Bandeja Retangular Rústica",
+    "Description": "Bandeja feita de cimento com alças embutidas. Perfeita para servir ou decorar mesas e bancadas.",
+    "Price": 45,
+    "Size": "Grande",
+    "Category": "Bandejas",
+    "QuantityInStock": 10,
+    "ImagesUrl": ["/images/products/bandeja-retangular.png"]
+  },
+  {
+    "Name": "Vaso Cônico com Pintura",
+    "Description": "Vaso cônico pintado à mão com detalhes em dourado. Ideal para presentear ou decorar com elegância.",
+    "Price": 40,
+    "Size": "Médio",
+    "Category": "Vasos",
+    "QuantityInStock": 12,
+    "ImagesUrl": ["/images/products/vaso-conico.png"]
+  }
+]

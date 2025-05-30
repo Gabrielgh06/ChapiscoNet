@@ -20,7 +20,7 @@ namespace Infrastructure.Migrations
                     Description = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Size = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Category = table.Column<int>(type: "int", nullable: false),
+                    Category = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     QuantityInStock = table.Column<int>(type: "int", nullable: false),
                     ImagesUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ImagemPrincipalUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
