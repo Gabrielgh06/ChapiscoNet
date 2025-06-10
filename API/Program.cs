@@ -1,4 +1,5 @@
 using Core.Interfaces;
+using Infrastructure;
 using Infrastructure.Config;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,7 @@ builder.Services.AddDbContext<StoreContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 builder.Services.AddScoped<IProductsRepository, ProductRepository>(); // Registrando o repositório de produtos
+builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>)); // Registrando o repositório genérico
 
 var app = builder.Build(); // Tudo que acontece antes desse linha é serviço, tudo que acontece depois é middleware
 
