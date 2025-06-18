@@ -5,7 +5,7 @@ namespace Core.Entities;
 public class Product : BaseEntity
 {
     public required string Name { get; set; }
-    public string? Description { get; set; } // ? = se pode ser nulo
+    public required string Description { get; set; }
     public decimal Price { get; set; }
     public required string Size { get; set; }
     public required string Category { get; set; }
