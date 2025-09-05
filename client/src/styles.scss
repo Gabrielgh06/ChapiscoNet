@@ -5,14 +5,12 @@
   @include mat.button-overrides((
     filled-container-shape: '6px',
     outlined-container-shape: '6px', 
-    //container-elevation-shadow: rgb(227, 227, 227)
   ));
   @include mat.badge-overrides((
     background-color: rgb(169, 169, 169),
   ));
 }
 
-/* body {
-  background: var(--mat-sys-surface);
-  color: var(--mat-sys-on-surface);
-} */
+.match-input-height {
+  height: var(--mat-form-field-container-height) !important;
+}
