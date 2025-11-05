@@ -1,40 +1,43 @@
 @if (product) {
-    <section class="py-8">
-        <div class="max-w-screen-2xl px-4 mx-auto">
-            <div class="grid grid-cols-2 gap-8">
-                <div class="max-w-xl mx-auto">
-                    <img class="w-full h-auto rounded-lg" src="{{product.imagesUrl}}" alt="Imagem de {{product.name}}">
-                </div>
+<section class="py-8">
+    <div class="max-w-screen-xl px-6 mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+            
+            <div class="max-w-md mx-auto md:max-w-full md:sticky md:top-8">
+                <img class="w-48 h-48 sm:w-64 sm:h-64 md:w-100 md:h-100 object-cover rounded-xl mx-auto" 
+                src="{{product.imagemPrincipalUrl}}"
+                alt="Imagem de {{product.name}}">
+            </div>
 
-                <div>
-                    <h1 class="text-2xl font-semibold text-gray-900">{{product.name}}</h1>
-                    <div class="mt-4 items-center gap-4 flex">
-                        <p class="text-3xl font-extrabold text-gray-900">
-                            {{product.price | currency}}
-                        </p>
-                    </div>
-                    
-                    <div class="flex gap-4 mt-6">
-                        <button mat-flat-button class="match-input-height">
-                            <mat-icon>add_shopping_cart</mat-icon>
-                            Adicionar ao carrinho
-                        </button>
-
-                        <mat-form-field appearance="outline" class="flex">
-                            <mat-label>Quatidade</mat-label>
-                            <input matInput type="number">
-                        </mat-form-field>
-                    </div>
-
-                    <mat-divider></mat-divider>
-
-                    <p class="mt-6 text-gray-500">
-                        {{product.description}}
+            <div>
+                <h1 class="text-2xl font-semibold text-gray-900">{{product.name}}</h1>
+                <div class="mt-4 items-center gap-4 flex">
+                    <p class="text-3xl font-bold text-gray-900">
+                        {{product.price | currency}}
                     </p>
                 </div>
 
+                <div class="flex gap-6 mt-4">
+                    <button mat-flat-button class="match-input-height">
+                        <mat-icon>add_shopping_cart</mat-icon>
+                        Adicionar ao carrinho
+                    </button>
 
+                    <mat-form-field appearance="outline" class="flex">
+                        <mat-label>Quatidade</mat-label>
+                        <input matInput type="number">
+                    </mat-form-field>
+                </div>
+
+                <mat-divider></mat-divider>
+
+                <p class="mt-6 text-gray-700">
+                    {{product.description}}
+                </p>
             </div>
+
+
         </div>
-    </section>
+    </div>
+</section>
 }

@@ -1,20 +1,120 @@
-<header class="shadow-md p-3 w-full bg-white">
-    <div class="flex align-middle items-center justify-between max-w-screen-2xl mx-auto">
-        <img routerLink="/" src="/images/logo.png" alt="Logo" class="max-h-16">
+<!-- <header class="shadow-md p-3 w-full bg-white"> -->
+<header class="shadow-md p-1 w-full max-h-60 fixed top-0 z-50 bg-white">
+    <div class="flex align-middle items-center justify-between max-w-screen-2xl mx-auto px-10">
         <nav class="flex gap-3 my-2 uppercase text-2xl">
-            <a routerLink="/" 
-                routerLinkActive="active"
-                [routerLinkActiveOptions]="{ exact: true }"
-            >Home</a>
+            <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
             <a routerLink="/shop" routerLinkActive="active">Shop</a>
-            <a>Contato</a>
+            <a routerLink="/test-error" routerLinkActive="active">Errors</a>
         </nav>
+        <img routerLink="/" src="/images/logo2.png" alt="Logo" class="h-24">
         <div class="flex gap-3 align-middle">
             <a matBadge="5" matBadgeSize="large" class="custom-badge mt-2 mr-2">
                 <mat-icon>shopping_cart</mat-icon>
             </a>
             <button mat-stroked-button>Login</button>
-            <button mat-stroked-button>Registar</button>            
+            <button mat-stroked-button>Registar</button>
         </div>
     </div>
 </header>
+
+@if (busyService.loading) {
+    <mat-progress-bar mode="indeterminate" class="fixed top-0 z-50"></mat-progress-bar>
+}
+
+
+<!-- <header class="shadow-md p-3 w-full bg-white">
+    <div class="flex align-middle items-center justify-between max-w-screen-2xl mx-auto px-10"> -->
+<!-- Social Media -->
+<!-- <div class="flex gap-3">
+            <a href="#" aria-label="Facebook">
+                <mat-icon fontSet="fa-brands" fontIcon="fa-instagran-f"></mat-icon>
+            </a>
+            <a href="#" aria-label="Youtube">
+                <mat-icon fontSet="fa-brands" fontIcon="fa-youtube"></mat-icon>
+            </a>
+            <a href="#" aria-label="Pinterest">
+                <mat-icon fontSet="fa-brands" fontIcon="fa-pinterest-p"></mat-icon>
+            </a>
+        </div> -->
+
+<!-- Logo -->
+<!-- <div class="flex flex-col items-center">
+            <img routerLink="/" src="/images/logo.png" alt="Logo" class="h-40">
+        </div> -->
+
+<!-- Utility Icons -->
+<!-- <div class="flex gap-3 align-middle">
+            <a aria-label="Buscar">
+                <mat-icon>search</mat-icon>
+            </a>
+            <a matBadge="5" matBadgeSize="large" aria-label="Carrinho de Compras" class="custom-badge mt-2 mr-2">
+                <mat-icon>shopping_cart</mat-icon>
+            </a>
+            <button mat-stroked-button aria-label="Minha Conta">
+                <mat-icon>person</mat-icon>
+                Conta
+            </button>
+        </div>
+    </div> -->
+
+<!-- Navegação -->
+<!-- <nav class="flex justify-center mt-4">
+        <ul class="flex gap-6 uppercase text-lg">
+            <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+            <li><a routerLink="/lancamentos" routerLinkActive="active">Lançamentos</a></li>
+            <li><a routerLink="/produtos" routerLinkActive="active">Produtos</a></li>
+            <li><a routerLink="/kit" routerLinkActive="active">KIT</a></li>
+            <li><a routerLink="/presenteie" routerLinkActive="active">Presenteie</a></li>
+        </ul>
+    </nav>
+</header> -->
+
+
+
+
+
+<!-- <main>
+        <section class="main-banner">
+            <div class="banner-image">
+                </div>
+            <div class="banner-promo">
+                <h2>Use o cupom com **20% OFF** na primeira compra</h2>
+                <p>Transforme seu ambiente com os melhores vasinhos criando um espaço minimalista e elegante.</p>
+                <a href="#" class="btn-primary">
+                    Compre Já <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+
+        <section class="featured-products">
+            <h2 class="section-title">DESTAQUES</h2>
+            <div class="product-list">
+                <article class="product-item">
+                    <a href="#">
+                        <img src="caminho/para/produto1.jpg" alt="Vaso de Cimento Branco">
+                        </a>
+                </article>
+
+                <article class="product-item">
+                    <a href="#">
+                        <img src="caminho/para/produto2.jpg" alt="Conjunto de Vasos Minimalistas">
+                    </a>
+                </article>
+
+                <article class="product-item">
+                    <a href="#">
+                        <img src="caminho/para/produto3.jpg" alt="Vaso Cinza com Detalhe Texturizado">
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        </main>
+
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Estúdio Chapisco. Todos os direitos reservados.</p>
+        </div>
+    </footer> -->

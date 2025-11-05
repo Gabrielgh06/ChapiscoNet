@@ -18,3 +18,18 @@
 .mdc-notched-outline__notch {
   border-right-style: none !important;
 }
+
+.snack-error{
+  @include mat.snack-bar-overrides((
+    button-color: white,
+    container-color: rgb(255, 68, 0),
+    supporting-text-color: white,
+  ));
+}
+.snack-success{
+  @include mat.snack-bar-overrides((
+    button-color: white,
+    container-color: rgb(53, 149, 53),
+    supporting-text-color: white,
+  ));
+}

@@ -1,16 +1,25 @@
-@if (product) {
-    <mat-card appearance="raised" routerLink="/shop/{{product.id}}" class="product-card">
-        <img src="{{product.imagesUrl}}" class="rounded-t-lg" alt="Imagem de {{product.name}}">
-        <mat-card-content class="mt-2">
-            <h2 class="text-sm font-semibold uppercase">{{product.name}}</h2>
-            <p class="font-light">{{product.price | currency}}</p>
-        </mat-card-content>
-        <mat-card-actions>
-            <button mat-stroked-button class="w-full">
-                <mat-icon>add_shopping_cart</mat-icon>
-                Adicionar ao carrinho
-            </button>
-        </mat-card-actions>
-    </mat-card>
-}
+<!-- @if (product) {
+<mat-card appearance="raised" routerLink="/shop/{{product.id}}" class="product-card">
+    <img src="{{product.imagemPrincipalUrl}}" class="rounded-t-lg" alt="Imagem de {{product.name}}">
+    <mat-card-content class="mt-2">
+        <h2 class="text-sm font-semibold uppercase">{{product.name}}</h2>
+        <p class="font-light">{{product.price | currency}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-stroked-button class="w-full">
+            <mat-icon>add_shopping_cart</mat-icon>
+            Adicionar ao carrinho
+        </button>
+    </mat-card-actions>
+</mat-card>
+} -->
 
+@if (product) { <mat-card appearance="raised" routerLink="/shop/{{product.id}}"
+    class="product-card min-h-80 flex flex-col justify-between">
+    <div class="w-full h-48 overflow-hidden rounded-t-lg"> <img src="{{product.imagemPrincipalUrl}}"
+            alt="Imagem de {{product.name}}" class="w-full h-full object-cover"> </div> <mat-card-content class="mt-2">
+        <h2 class="text-sm font-semibold uppercase line-clamp-2"> {{product.name}} </h2>
+        <p class="font-light">{{product.price | currency}}</p>
+    </mat-card-content> <mat-card-actions> <button mat-stroked-button class="w-full">
+            <mat-icon>add_shopping_cart</mat-icon> Adicionar ao carrinho </button> </mat-card-actions>
+</mat-card> }

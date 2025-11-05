@@ -3,8 +3,9 @@ export type Product = {
     name: string;
     description: string;
     price: number;
-    imagesUrl: string;
+    imagesUrl: string[];
     size: string;
     category: string;
     quantityInStock: number;
+    imagemPrincipalUrl: string;
 }

@@ -134,3 +134,5 @@ C:\Users\gabri\OneDrive\Área de Trabalho\ChapiscoNet\API\obj\Debug\net8.0\refin
 C:\Users\gabri\OneDrive\Área de Trabalho\ChapiscoNet\API\obj\Debug\net8.0\API.pdb
 C:\Users\gabri\OneDrive\Área de Trabalho\ChapiscoNet\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\gabri\OneDrive\Área de Trabalho\ChapiscoNet\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\ChapiscoNet\API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\ChapiscoNet\API\bin\Debug\net8.0\StackExchange.Redis.dll
