@@ -1,6 +1,6 @@
 @if (product) {
 <section class="py-8">
-    <div class="max-w-screen-xl px-6 mx-auto">
+    <div class="max-w-7xl px-6 mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             
             <div class="max-w-md mx-auto md:max-w-full md:sticky md:top-8">
@@ -11,6 +11,9 @@
 
             <div>
                 <h1 class="text-2xl font-semibold text-gray-900">{{product.name}}</h1>
+
+                <P>Você tem {{quantityInCart}} desse produto no seu carrinho</P>
+
                 <div class="mt-4 items-center gap-4 flex">
                     <p class="text-3xl font-bold text-gray-900">
                         {{product.price | currency}}
@@ -18,14 +21,16 @@
                 </div>
 
                 <div class="flex gap-6 mt-4">
-                    <button mat-flat-button class="match-input-height">
-                        <mat-icon>add_shopping_cart</mat-icon>
-                        Adicionar ao carrinho
+                    <button [disabled]="quantity === quantityInCart"
+                        (click)="updateCart()"
+                        mat-flat-button class="match-input-height">
+                        <mat-icon> shopping_cart</mat-icon>
+                        {{getButtonText()}}
                     </button>
 
                     <mat-form-field appearance="outline" class="flex">
                         <mat-label>Quatidade</mat-label>
-                        <input matInput type="number">
+                        <input matInput min="0" [(ngModel)]="quantity" type="number">
                     </mat-form-field>
                 </div>
 

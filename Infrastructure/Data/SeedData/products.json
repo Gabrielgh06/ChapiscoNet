@@ -1,49 +1,60 @@
 [
   {
-    "Name": "Vaso Cilíndrico Pequeno",
-    "Description": "Vaso de cimento feito à mão, ideal para suculentas ou pequenos cactos. Acabamento rústico e moderno.",
-    "Price": 25,
+    "Name": "Vaso Facetado Roxo",
+    "Description": "Vaso alto lilás, com cortes verticais.",
+    "Price": 20,
     "Size": "Pequeno",
     "Category": "Vasos",
-    "QuantityInStock": 30,
-    "ImagesUrl": ["/images/products/vaso-cilindrico-pequeno.png"]
+    "QuantityInStock": 1,
+    "ImagesUrl": [
+      "/images/products/vaso-facetado-roxo.png"
+    ]
   },
   {
-    "Name": "Conjunto de 3 Vasos Geométricos",
-    "Description": "Trio de vasos de cimento com formas geométricas variadas. Perfeitos para decoração minimalista.",
-    "Price": 70,
+    "Name": "Vaso Facetado Azul",
+    "Description": "Vaso alto em azul intenso, com geometria vertical.",
+    "Price": 20,
     "Size": "Pequeno",
     "Category": "Vasos",
     "QuantityInStock": 20,
-    "ImagesUrl": ["/images/products/vasos-geometricos.png"]
+    "ImagesUrl": [
+      "/images/products/vaso-facetado-azul.png"
+    ]
   },
   {
-    "Name": "Prato de Apoio Oval",
-    "Description": "Prato de cimento para uso com vasos ou objetos decorativos. Traz charme e organização ao ambiente.",
-    "Price": 18,
-    "Size": "Médio",
-    "Category": "Pratos",
-    "QuantityInStock": 40,
-    "ImagesUrl": ["/images/products/prato-oval.png"]
-  },
-  {
-    "Name": "Cachepot Cimento Cinza Escuro",
-    "Description": "Cachepot robusto com acabamento polido. Design urbano ideal para salas ou escritórios.",
-    "Price": 35,
-    "Size": "Médio",
-    "Category": "Vasos",
-    "QuantityInStock": 15,
-    "ImagesUrl": ["/images/products/cachepot-cinza.png"]
-  },
-  {
-    "Name": "Pote Multiuso de Cimento",
-    "Description": "Pote decorativo para uso como porta-velas, organizador ou pequeno vaso. Super versátil.",
-    "Price": 22,
+    "Name": "Pote Laranja Diamante",
+    "Description": "Pote baixo, facetado como um diamante.",
+    "Price": 20,
     "Size": "Pequeno",
     "Category": "Potes",
-    "QuantityInStock": 50,
-    "ImagesUrl": ["/images/products/pote-multiuso.png"]
+    "QuantityInStock": 1,
+    "ImagesUrl": [
+      "/images/products/pote-laranja-diamante.png"
+    ]
   },
+  {
+    "Name": "Pote Amarelo Texturizado",
+    "Description": "Pote baixo em amarelo vivo, com relevo delicado.",
+    "Price": 15,
+    "Size": "Pequeno",
+    "Category": "Potes",
+    "QuantityInStock": 1,
+    "ImagesUrl": [
+      "/images/products/pote-amarelo-texturizado.png"
+    ]
+  },
+  {
+    "Name": "Conjunto Cores e Formas",
+    "Description": "Peças vibrantes, geométricas e modernas.",
+    "Price": 60,
+    "Size": "Médio",
+    "Category": "Potes",
+    "QuantityInStock": 1,
+    "ImagesUrl": [
+      "/images/products/"
+    ]
+  },
+  /* ------------------------------- Continuar Daqui -------------------------------------- */
   {
     "Name": "Suporte de Vela de Cimento",
     "Description": "Base para velas com design minimalista. Ideal para criar uma atmosfera acolhedora.",
@@ -51,7 +62,9 @@
     "Size": "Pequeno",
     "Category": "Decorativos",
     "QuantityInStock": 60,
-    "ImagesUrl": ["/images/products/suporte-vela.png"]
+    "ImagesUrl": [
+      "/images/products/suporte-vela.png"
+    ]
   },
   {
     "Name": "Bandeja Retangular Rústica",
@@ -60,7 +73,9 @@
     "Size": "Grande",
     "Category": "Bandejas",
     "QuantityInStock": 10,
-    "ImagesUrl": ["/images/products/bandeja-retangular.png"]
+    "ImagesUrl": [
+      "/images/products/bandeja-retangular.png"
+    ]
   },
   {
     "Name": "Vaso Cônico com Pintura",
@@ -69,6 +84,8 @@
     "Size": "Médio",
     "Category": "Vasos",
     "QuantityInStock": 12,
-    "ImagesUrl": ["/images/products/vaso-conico.png"]
+    "ImagesUrl": [
+      "/images/products/vaso-conico.png"
+    ]
   }
 ]
