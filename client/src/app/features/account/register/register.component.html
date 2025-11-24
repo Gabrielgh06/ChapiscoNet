@@ -1,0 +1,29 @@
+<mat-card class="max-w-xl mx-auto **pt-6** **my-8** bg-white">
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <div class="text-center mb-6">
+            <h1 class="text-3xl font-semibold text-primary">Registrar</h1>
+        </div>
+        
+        <app-text-input label="Nome" formControlName="firstName"/>
+        <app-text-input label="Sobrenome" formControlName="lastName"/>
+        <app-text-input label="Email" formControlName="email"/>
+        <app-text-input label="Senha" formControlName="password"/>
+        
+
+        @if (validationErrors) {
+            <div class="mb-3 p-4 bg-red-100 text-red-600">
+                <ul class="list-disc px-3">
+                    @for (error of validationErrors; track $index) {
+                        <li>{{error}}</li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <button 
+            [disabled]="registerForm.invalid"
+            mat-flat-button 
+            type="submit" 
+            class="w-full py-2">Registrar</button>
+    </form>
+</mat-card>
