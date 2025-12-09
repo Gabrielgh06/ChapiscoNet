@@ -4359,19 +4359,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gabri\\.nuget\\packages\\": {}
+    "C:\\Users\\Gabriel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\API\\obj\\",
+      "projectPath": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4383,8 +4383,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -4398,7 +4398,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4428,7 +4429,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

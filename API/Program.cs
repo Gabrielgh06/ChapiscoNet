@@ -15,7 +15,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<StoreContext>(opt =>
 {
-    opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), sqlOptions => 
+    {
+        // Adiciona tentativas automáticas em caso de falha de rede temporária
+        sqlOptions.EnableRetryOnFailure(
+            maxRetryCount: 5, 
+            maxRetryDelay: TimeSpan.FromSeconds(10), 
+            errorNumbersToAdd: null);
+    });
 });
 builder.Services.AddScoped<IProductsRepository, ProductRepository>(); // Registrando o repositório de produtos
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>)); // Registrando o repositório genérico

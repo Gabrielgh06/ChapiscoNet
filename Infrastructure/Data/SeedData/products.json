@@ -1,91 +1,210 @@
 [
   {
     "Name": "Vaso Facetado Roxo",
-    "Description": "Vaso alto lilás, com cortes verticais.",
-    "Price": 20,
+    "Description": "Vaso alto lilás, com cortes verticais. Decoração jovem e criativa.",
+    "Price": 15,
     "Size": "Pequeno",
     "Category": "Vasos",
     "QuantityInStock": 1,
     "ImagesUrl": [
-      "/images/products/vaso-facetado-roxo.png"
+      "/images/products/vaso-facetado-roxo.jpg",
+      "/images/products/detalhe-vaso-facetado-roxo.jpg"
     ]
   },
   {
     "Name": "Vaso Facetado Azul",
-    "Description": "Vaso alto em azul intenso, com geometria vertical.",
-    "Price": 20,
+    "Description": "Vaso alto em azul intenso, com geometria vertical. Impactante e moderno.",
+    "Price": 15,
     "Size": "Pequeno",
     "Category": "Vasos",
-    "QuantityInStock": 20,
+    "QuantityInStock": 1,
     "ImagesUrl": [
-      "/images/products/vaso-facetado-azul.png"
+      "/images/products/vaso-facetado-azul.jpg",
+      "/images/products/detalhe-vaso-facetado-azul.jpg"
     ]
   },
   {
     "Name": "Pote Laranja Diamante",
-    "Description": "Pote baixo, facetado como um diamante.",
-    "Price": 20,
+    "Description": "Pote baixo, facetado como um diamante. Funcional e vibrante.",
+    "Price": 15,
     "Size": "Pequeno",
     "Category": "Potes",
     "QuantityInStock": 1,
     "ImagesUrl": [
-      "/images/products/pote-laranja-diamante.png"
+      "/images/products/pote-laranja-diamante.jpg",
+      "/images/products/detalhe-pote-laranja-diamante.jpg"
     ]
   },
   {
     "Name": "Pote Amarelo Texturizado",
-    "Description": "Pote baixo em amarelo vivo, com relevo delicado.",
-    "Price": 15,
+    "Description": "Pote baixo em amarelo vivo, com relevo delicado. Alegre e versátil.",
+    "Price": 10,
     "Size": "Pequeno",
     "Category": "Potes",
     "QuantityInStock": 1,
     "ImagesUrl": [
-      "/images/products/pote-amarelo-texturizado.png"
+      "/images/products/pote-amarelo-texturizado.jpg",
+      "/images/products/detalhe-pote-amarelo.jpg"
     ]
   },
   {
     "Name": "Conjunto Cores e Formas",
-    "Description": "Peças vibrantes, geométricas e modernas.",
-    "Price": 60,
+    "Description": "Conjunto completo com 4 peças vibrantes, geométricas e modernas.",
+    "Price": 50,
     "Size": "Médio",
+    "Category": "Conjuntos",
+    "QuantityInStock": 1,
+    "ImagesUrl": [
+      "/images/products/conjunto-cores-e-formas.jpg",
+      "/images/products/conjunto-cores-e-formas(2).jpg",
+      "/images/products/uso-conjunto-cores.jpg",
+      "/images/products/pote-amarelo-texturizado.jpg",
+      "/images/products/detalhe-pote-amarelo.jpg",
+      "/images/products/pote-laranja-diamante.jpg",
+      "/images/products/detalhe-pote-laranja-diamante.jpg",
+      "/images/products/vaso-facetado-azul.jpg",
+      "/images/products/detalhe-vaso-facetado-azul.jpg",
+      "/images/products/vaso-facetado-roxo.jpg",
+      "/images/products/detalhe-vaso-facetado-roxo.jpg"
+    ]
+  },
+  {
+    "Name": "Vaso Bronze Geométrico",
+    "Description": "Vaso alto em bronze com textura triangular. Sofisticado e imponente.",
+    "Price": 15,
+    "Size": "Pequeno",
+    "Category": "Vasos",
+    "QuantityInStock": 1,
+    "ImagesUrl": [
+      "/images/products/vaso-bronze-geometrico.jpg",
+      "/images/products/detalhe-pote-bronze-geometrico.jpg"
+    ]
+  },
+  {
+    "Name": "Pote Bronze com Tampa",
+    "Description": "Pote baixo em bronze com tampa arredondada. Discreto e funcional.",
+    "Price": 15,
+    "Size": "Pequeno",
     "Category": "Potes",
     "QuantityInStock": 1,
     "ImagesUrl": [
-      "/images/products/"
+      "/images/products/pote-bronze-com-tampa-fechado.jpg",
+      "/images/products/pote-bronze-com-tampa-aberta.jpg"
     ]
   },
-  /* ------------------------------- Continuar Daqui -------------------------------------- */
   {
-    "Name": "Suporte de Vela de Cimento",
-    "Description": "Base para velas com design minimalista. Ideal para criar uma atmosfera acolhedora.",
+    "Name": "Pote Bronze Ondulado",
+    "Description": "Pote baixo em bronze, com textura ondulada. Elegante e minimalista.",
+    "Price": 15,
+    "Size": "Pequeno",
+    "Category": "Potes",
+    "QuantityInStock": 1,
+    "ImagesUrl": [
+      "/images/products/pote-bronze-ondulado.jpg",
+      "/images/products/detalhe-pote-bronze-ondulado.jpg"
+    ]
+  },
+  {
+    "Name": "Conjunto Bronze Urbano",
+    "Description": "Conjunto de 3 peças sofisticadas com tons metálicos e texturas elegantes.",
+    "Price": 40,
+    "Size": "Médio",
+    "Category": "Conjuntos",
+    "QuantityInStock": 1,
+    "ImagesUrl": [
+      "/images/products/conjunto-bronze-urbano.jpg",
+      "/images/products/conjunto-bronze-urbano-uso.jpg",
+      "/images/products/uso-conjunto-bronze-urbano.jpg",
+      "/images/products/uso-conjunto-bronze-urbano(3).jpg",
+      "/images/products/vaso-bronze-geometrico.jpg",
+      "/images/products/detalhe-pote-bronze-geometrico.jpg",
+      "/images/products/pote-bronze-ondulado.jpg",
+      "/images/products/detalhe-pote-bronze-ondulado.jpg",
+      "/images/products/pote-bronze-com-tampa-fechado.jpg",
+      "/images/products/pote-bronze-com-tampa-aberta.jpg",
+      "/images/products/detalhe-pote-bronze.jpg"
+    ]
+  },
+  {
+    "Name": "Pote Branco com Tampa Dourada",
+    "Description": "Cilíndrico, com detalhe em dourado na tampa. Um toque de luxo.",
+    "Price": 15,
+    "Size": "Pequeno",
+    "Category": "Potes",
+    "QuantityInStock": 1,
+    "ImagesUrl": [
+      "/images/products/pote-branco-com-tampa-dourada-fechada.jpg",
+      "/images/products/pote-branco-com-tampa-dourada-aberta.jpg"
+    ]
+  },
+  {
+    "Name": "Pote Branco Texturizado",
+    "Description": "Pote com relevo suave na cor branca. Clássico e clean.",
+    "Price": 15,
+    "Size": "Pequeno",
+    "Category": "Potes",
+    "QuantityInStock": 1,
+    "ImagesUrl": [
+      "/images/products/pote-branco-texturizado.jpg",
+      "/images/products/detalhe-pote-branco.jpg"
+    ]
+  },
+  {
+    "Name": "Descanso Redondo",
+    "Description": "Base circular branca com filetes dourados. Ideal para apoiar velas ou pequenos objetos.",
     "Price": 15,
     "Size": "Pequeno",
     "Category": "Decorativos",
-    "QuantityInStock": 60,
+    "QuantityInStock": 1,
     "ImagesUrl": [
-      "/images/products/suporte-vela.png"
+      "/images/products/descanso-redondo-com-filetes-dourados.jpg",
+      "/images/products/descanso-redondo-com-filetes-dourados-Cima.jpg"
     ]
   },
   {
-    "Name": "Bandeja Retangular Rústica",
-    "Description": "Bandeja feita de cimento com alças embutidas. Perfeita para servir ou decorar mesas e bancadas.",
-    "Price": 45,
-    "Size": "Grande",
+    "Name": "Bandeja Oval com Filetes Dourados",
+    "Description": "Bandeja alongada branca com detalhes dourados. Perfeita para organizar.",
+    "Price": 10,
+    "Size": "Pequeno",
     "Category": "Bandejas",
-    "QuantityInStock": 10,
+    "QuantityInStock": 1,
     "ImagesUrl": [
-      "/images/products/bandeja-retangular.png"
+      "/images/products/bandeja-oval-com-filetes-dourados.jpg",
+      "/images/products/bandeja-oval-com-filetes-dourados-cima.jpg"
     ]
   },
   {
-    "Name": "Vaso Cônico com Pintura",
-    "Description": "Vaso cônico pintado à mão com detalhes em dourado. Ideal para presentear ou decorar com elegância.",
-    "Price": 40,
+    "Name": "Conjunto Branco & Dourado",
+    "Description": "Conjunto completo composto de 4 peças. Mínimo, sofisticado e delicado.",
+    "Price": 55,
     "Size": "Médio",
-    "Category": "Vasos",
-    "QuantityInStock": 12,
+    "Category": "Conjuntos",
+    "QuantityInStock": 1,
     "ImagesUrl": [
-      "/images/products/vaso-conico.png"
+      "/images/products/conjunto-branco-dourado.jpg",
+      "/images/products/conjunto-branco-dourado(2).jpg",
+      "/images/products/conjunto-branco-dourado(3).jpg",
+      "/images/products/uso-conjunto-branco-dourado.jpg",
+      "/images/products/uso-conjunto-branco-dourado(2).jpg",
+      "/images/products/pote-branco-com-tampa-dourada-fechada.jpg",
+      "/images/products/pote-branco-com-tampa-dourada-aberta.jpg",
+      "/images/products/descanso-redondo-com-filetes-dourados.jpg",
+      "/images/products/descanso-redondo-com-filetes-dourados-Cima.jpg",
+      "/images/products/bandeja-oval-com-filetes-dourados.jpg",
+      "/images/products/bandeja-oval-com-filetes-dourados-cima.jpg",
+      "/images/products/pote-branco-tampa-filetes-dourados.jpg"
+    ]
+  },
+  {
+    "Name": "Bandeja Oval Mesclada",
+    "Description": "Bandeja alongada mesclada branca e cinza. Perfeita para organizar.",
+    "Price": 15,
+    "Size": "Pequeno",
+    "Category": "Bandejas",
+    "QuantityInStock": 1,
+    "ImagesUrl": [
+      "/images/products/bandeja-oval-mesclado.jpg",
+      "/images/products/bandeja-oval-mesclado-cima.jpg"
     ]
   }
 ]

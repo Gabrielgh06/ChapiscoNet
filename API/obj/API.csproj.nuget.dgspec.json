@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\API\\API.csproj": {}
+    "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\API\\API.csproj": {
+    "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\API\\obj\\",
+        "projectPath": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -41,7 +41,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -71,21 +72,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Core\\Core.csproj": {
+    "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -108,7 +109,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -135,21 +137,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -161,8 +163,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\ChapiscoNet\\Core\\Core.csproj"
+              "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Gabriel\\Desktop\\Gabriel\\Projeto Integrador\\ChapiscoNet\\Core\\Core.csproj"
               }
             }
           }
@@ -176,7 +178,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -211,7 +214,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

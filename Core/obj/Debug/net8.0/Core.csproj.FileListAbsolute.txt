@@ -11,3 +11,16 @@ C:\Users\gabri\OneDrive\Área de Trabalho\ChapiscoNet\Core\obj\Debug\net8.0\refi
 C:\Users\gabri\OneDrive\Área de Trabalho\ChapiscoNet\Core\obj\Debug\net8.0\Core.pdb
 C:\Users\gabri\OneDrive\Área de Trabalho\ChapiscoNet\Core\obj\Debug\net8.0\ref\Core.dll
 C:\Users\gabri\OneDrive\Área de Trabalho\ChapiscoNet\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Desktop\Gabriel\Projeto Integrador\ChapiscoNet\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\Gabriel\Desktop\Gabriel\Projeto Integrador\ChapiscoNet\Core\bin\Debug\net8.0\Core.dll
+C:\Users\Gabriel\Desktop\Gabriel\Projeto Integrador\ChapiscoNet\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\Gabriel\Desktop\Gabriel\Projeto Integrador\ChapiscoNet\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Desktop\Gabriel\Projeto Integrador\ChapiscoNet\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Desktop\Gabriel\Projeto Integrador\ChapiscoNet\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Desktop\Gabriel\Projeto Integrador\ChapiscoNet\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\Gabriel\Desktop\Gabriel\Projeto Integrador\ChapiscoNet\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Desktop\Gabriel\Projeto Integrador\ChapiscoNet\Core\obj\Debug\net8.0\Core.sourcelink.json
+C:\Users\Gabriel\Desktop\Gabriel\Projeto Integrador\ChapiscoNet\Core\obj\Debug\net8.0\Core.dll
+C:\Users\Gabriel\Desktop\Gabriel\Projeto Integrador\ChapiscoNet\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\Gabriel\Desktop\Gabriel\Projeto Integrador\ChapiscoNet\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\Gabriel\Desktop\Gabriel\Projeto Integrador\ChapiscoNet\Core\obj\Debug\net8.0\ref\Core.dll
